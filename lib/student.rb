@@ -5,4 +5,8 @@ class Student < User
   self.knowledge << str 
  end 
  
+ def knowledge 
+   @knowledge
+ end 
+ 
 end
