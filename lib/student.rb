@@ -1,8 +1,8 @@
 class Student < User 
  @knowledge=[]
  
- def learn 
-  
+ def learn(str)
+  self.knowledge << str 
  end 
  
 end
